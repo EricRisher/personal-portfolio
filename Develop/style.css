@@ -118,6 +118,23 @@ button[disabled] {
   overflow: hidden;
 }
 
+.options {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-input{ 
+  width: 2rem;
+}
+
+#characterAmountNumber {
+  width: auto;
+}
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
