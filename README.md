@@ -1,4 +1,4 @@
-#Password Generator
+Password Generator
 >### Module 3 Berkeley Coding Bootcamp Challenge - JavaScript Password Generator
 
 ## Installation
@@ -35,7 +35,7 @@ git clone git@github.com:EricRisher/password-generator.git
 
 ## Deployed Application
 You can view the live application
-[here](https://t-starkw.github.io/password-generator/)
+[here](https://ericrisher.github.io/password-generator/)
 
 ### How to Guides :pencil:
 [Build A Password Generator With JavaScript - Tutorial](https://www.youtube.com/watch?v=iKo9pDKKHnc) 
