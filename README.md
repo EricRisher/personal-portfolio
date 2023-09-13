@@ -29,9 +29,9 @@ git clone git@github.com:EricRisher/password-generator.git
 
 ## Usage
 
-* After clicking the red 'Generate Password' button, enter the desired length of your password, as well as approve desired character types by clicking the buttons.
+* After determining password criteria and password length click the red "Generate Password" button.
 
-* Once you have finsihed selecting desired boxes, your new password will appear in the box!
+* Once you have finsihed, your new password will appear in the box!
 
 ## Deployed Application
 You can view the live application
