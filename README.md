@@ -9,6 +9,10 @@ Clone the repository:
 git clone git@github.com:EricRisher/password-generator.git
 ```
 
+##Project Visual
+![image](https://github.com/EricRisher/password-generator/assets/109945090/53da609a-0e41-4a19-bba5-cb0db601d08c)
+
+
 ## Acceptance Criteria :white_check_mark:
 
 > GIVEN I need a new, secure password   
