@@ -10,7 +10,8 @@ git clone git@github.com:EricRisher/password-generator.git
 ```
 
 ## Project Visual
-![image](https://github.com/EricRisher/password-generator/assets/109945090/53da609a-0e41-4a19-bba5-cb0db601d08c)
+![Screenshot Capture - 2023-09-17 - 13-59-49](https://github.com/EricRisher/password-generator/assets/109945090/703bcb6e-1532-4dbe-a742-0ceb84125ca0)
+
 
 
 ## Acceptance Criteria :white_check_mark:
