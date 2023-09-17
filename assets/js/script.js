@@ -7,7 +7,7 @@ let includeSpecial = confirm("Do you want special characters?");
 let passwordLength = prompt( "Choose a password length between 8 and 128 characters.");
 let passLength     = parseInt(passwordLength);
 
-button.addEventListener('click', generatePassword);
+button.addEventListener("click", generatePassword);
 
 if (passLength >= 1 && passLength <= 50) {
   function generatePass() {
