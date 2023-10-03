@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#navbar {
+  color: black;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  background-color: rgb(71, 71, 71);
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+#navbar li {
+  border: 2px solid black;
+  background-color: #bd261b;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+
+#navbar li:first-child {
+  order: -1;
+  margin-right: auto;
+  border: 0;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  font-size: 3rem;
+}
+
+#navbar li:hover {
+  background-color: rgb(151, 151, 151);
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+#windows {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: block;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+#about-div {
+  width: 1150px;
+  background-color: #cccccc;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+#about-div p {
+  color: #333333;
+  display: flex;
+}
+
+#me {
+  height: 500px;
+  position: relative;
+  border: 5px double black;
+  display: block;
+  left: -10px;
+  bottom: 15px;
+}
+
+#work {
+  padding-bottom: 10px;
+  padding-top: 30px;
+  
+}
+
+.work-div {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #c4645d;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  gap: 10px;
+  margin: auto;
+
+}
+
+.work-div p {
+  font-size: 30px;
+}
+
+.work-div div {
+  justify-content: space-between;
+  position: relative;
+  display: block;
+  align-items: center;
+}
+
+#cat {
+   border: 4px black solid;
+   border-radius: 2px;
+   display: block;
+   position: relative;
+}
+
+.cat p {
+  margin: 0;
+  width: fit-content;
+}
+
+.cat {
+  height: 500px;
+  width: 500px;
+  background-image: url(Assets/500.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.work-div div {
+   border: 4px black solid;
+   border-radius: 2px;
+}
+
+.work-div p {
+  text-align: start;
+  display: inline-block;
+  bottom: 10%;
+  position: absolute;
+  left: 0;
+}
+
+.work-div a {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(255, 78, 78);
+  padding: 2px;
+}
+
+.find-me-food {
+  width: 95%;
+  height: 600px;
+  background-image: url(Assets/find-me-food.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.password-generator {
+  width: 600px;
+  height: 370px;
+  background-image: url(Assets/password-generator.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.work-div div:hover {
+  opacity: 75%;
+}
+
+#about-me #text {
+  margin-left: 100px;
+  font-size: 110%;
+  max-width: 750px;
+  max-height: 00px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 250%;
+  text-align: start;
+  margin-left: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#contact-info {
+  text-align: center;
+  margin: auto;
+}
+
+.contactInfo {
+  margin-top: 25px;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: 130%;
+  color: black;
+  list-style-type: none;
+}
+
+.contactInfo a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: rgba(45, 45, 45, 0.3);
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2,
+  footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .section-title {
+    width: 20%;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .section-title {
+    width: 95%;
+  }
+
+  .section p {
+    width: 100%;
+  }
+}

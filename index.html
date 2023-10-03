@@ -1,57 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2 class="password-display" id="passwordDisplay">Generate a Password</h2>
-        </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
 
-        <form id="passwordGeneratorForm" class="options">
-          <label for="">Password length</label>
-          <div>
-            <input type="range" min="8" max="128" 
-             id="characterAmountRange">
-            <input class="number-input" type="number" min="8" max="128" 
-             id="characterAmountNumber">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Personal Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <li>Eric Risher</li>
+      <li><a href="#about-me">About me</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact-info">Contact Info</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/eric-risher-b87a83247/">Resume</a>
+      </li>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <img id="windows" src="Assets/pexels-jan-van-der-wolf-17941956.jpg" alt="Windows" />
+        <article id="about-div">
+          <h2 id="about-me">About me</h2>
+          <p id="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            debitis accusamus architecto nostrum velit, mollitia quaerat
+            suscipit quae ratione. Facilis enim tempore eaque quo ipsam,
+            tempora necessitatibus. Corporis vitae adipisci ipsum repellat?
+            Quos eos similique praesentium. Velit nesciunt esse voluptate,
+            pariatur cumque maxime, obcaecati sequi dignissimos, et
+            exercitationem veniam veritatis?
+          </p>
+          <p id="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            similique asperiores molestiae ullam. Eligendi dolorum ex officia
+            temporibus, itaque laboriosam corporis odio? Rem perferendis, vero
+            obcaecati nisi atque consequuntur facere, voluptas aspernatur
+            praesentium eaque odio sed beatae hic. Ut aut accusamus sequi
+            voluptate maxime? Ex maxime ab quod quas ipsa rerum magnam
+            provident corporis mollitia voluptas fugit neque vero commodi
+            illum natus itaque labore laborum doloremque quis amet, molestias
+            officiis sequi. Repellendus quam deserunt laborum distinctio
+            perferendis in dolorum ab voluptas, odit est laudantium a
+            inventore voluptate ratione doloremque nemo nihil natus cupiditate
+            pariatur amet architecto quibusdam veniam eligendi! Consequuntur.
+            <img id="me" src="./Assets/user-id.jpeg" alt="picture of me" />
+          </p>
+        </article>
+        
+        <h2 id="work">Work</h2>
+        <div class="work-div">
+
+          <div class="find-me-food">
+            <p>
+              <a href="https://ericrisher.github.io/find-me-food/">Find me Food!<br/><font size='-0.5'>JavaScript / CSS / HTML / API's</font></a>
+            </p>
           </div>
 
-            <label for="includeSpecialChars">Special Characters?</label>
-            <input type="checkbox" id="includeSpecialChars">
+          <div class="password-generator">
+            <p>
+              <a href="https://ericrisher.github.io/password-generator/">Password Generator!<br/><font size='-0.5'>JavaScript / CSS / HTML</font></a>
+            </p>
+          </div>
 
-            <label for="includeNumbers">Numbers?</label>
-            <input type="checkbox" id="includeNumbers">
+          <div class="cat">
+            <p>
+              <a href="#">Cat<br/><font size='-0.5'>Meow / Meow? / Meow meow</font></a>
+            </p>
+          </div>
 
-            <label for="includeLowercase">Lowercase?</label>
-            <input type="checkbox" id="includeLowercase">
+          <div class="cat">
+            <p>
+              <a href="#">Cat<br/><font size='-0.5'>Meow / Meow? / Meow meow</font></a>
+            </p>
+          </div>
 
-            <label for="includeUppercase">Uppercase?</label>
-            <input type="checkbox" id="includeUppercase">
-        </form>
+          <div class="cat">
+            <p>
+              <a href="#">Cat<br/><font size='-0.5'>Meow / Meow? / Meow meow</font></a>
+            </p>
+          </div>
 
-        <div class="card-footer">
-          <button type="submit" id="generate" class="btn">Generate Password</button>
+          <div class="cat">
+            <p>
+              <a href="#">Cat<br/><font size='-0.5'>Meow / Meow? / Meow meow</font></a>
+            </p>
+          </div>
+
+          <div class="cat">
+            <p>
+              <a href="#">Cat<br/><font size='-0.5'>Meow / Meow? / Meow meow</font></a>
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
-    <script src="script.js"></script>
-  </body>
+
+        <h2 id="contact-info">Contact Info</h2>
+        <ul class="contactInfo">
+          <li><a href="#">949.484.3698</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/eric-risher-b87a83247/">Linkedln</a>
+          </li>
+          <li><a href="https://github.com/EricRisher">GitHub</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+</body>
+
 </html>
