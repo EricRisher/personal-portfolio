@@ -17,6 +17,7 @@ git clone git@github.com:EricRisher/personal-portfolio.git
 ## Acceptance Criteria :white_check_mark:
 
 > This is a blockquote
+> This is a blockquote
 
 ## Usage
 
