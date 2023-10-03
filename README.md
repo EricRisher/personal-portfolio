@@ -21,11 +21,21 @@ I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
 
+<<<<<<< HEAD
+=======
+## Project Visual
+![Screenshot Capture - 2023-09-17 - 13-59-49](https://github.com/EricRisher/password-generator/assets/109945090/703bcb6e-1532-4dbe-a742-0ceb84125ca0)
+
+
+
+## Acceptance Criteria :white_check_mark:
+>>>>>>> 5571fa466451656cd460a2c63b5512681a2784c4
 
 ## Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
+<<<<<<< HEAD
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -42,9 +52,15 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+=======
+* After determining password criteria and password length click the red "Generate Password" button.
+
+* Once you have finsihed, your new password will appear in the box!
+>>>>>>> 5571fa466451656cd460a2c63b5512681a2784c4
 
 ## Mock-Up
 
+<<<<<<< HEAD
 The following animation shows the web application's appearance and functionality:
 
 ![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
@@ -104,3 +120,8 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+=======
+### How to Guides :pencil:
+[Build A Password Generator With JavaScript - Tutorial](https://www.youtube.com/watch?v=iKo9pDKKHnc) 
+[Lots of Stack Overflow Threads]
+>>>>>>> 5571fa466451656cd460a2c63b5512681a2784c4
